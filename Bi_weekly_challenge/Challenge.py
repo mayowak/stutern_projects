@@ -23,15 +23,15 @@ def meet_user():
     # To Generate the conditions for age grouping
     user_age = float(Age)
     if user_age < 1:
-        print(f"As you are {Age} years old, you are an infant.")
+        print(f"you are an infant.")
     elif user_age <= 12:
-        print(f"As you are {Age} years old, you are a child.")
+        print(f"you are a child.")
     elif user_age <= 19:
-        print(f"As you are {Age} years old, you are a teen.")
-    elif user_age >= 20:
-        print(f"As you are {Age} years old, you are an adult.")
+        print(f"you are a teen.")
+    elif user_age == 20<=65:
+        print(f"you are an adult.")
     elif user_age >= 65:
-        print(f"As you are {Age} years old, you are an elderly person.")
+        print(f"you are an elderly person.")
     else:
         print("Unreal input.")
 
